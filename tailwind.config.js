@@ -15,6 +15,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-img': "url('/images/hero.png')",
+        'read-img': "url('/images/footer.png')",
         
       }
     },

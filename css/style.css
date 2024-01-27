@@ -19,6 +19,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+    html{
+        @apply scroll-smooth
+    }
+}
+
 @layer components{
     .btn{
         @apply text-4xl w-[20%] mx-auto block my-4 text-center py-3 px-5  hover:bg-black text-white rounded-md outline-none border font-Oswald font-semibold border-text-color; 

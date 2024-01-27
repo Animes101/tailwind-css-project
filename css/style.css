@@ -1,3 +1,26 @@
+/*Oranienbaum google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+
+/*Oswald*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* Roboto google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Overlock google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&display=swap');
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply text-4xl w-[20%] mx-auto block my-4 text-center py-3 px-5  hover:bg-black text-white rounded-md outline-none border font-Oswald font-semibold border-text-color; 
+    }
+}
